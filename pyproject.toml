@@ -1,0 +1,17 @@
+[project]
+name = "generative-ai-tools"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.uv.workspace]
+members = [
+    "langchain-llamaindex",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+]
