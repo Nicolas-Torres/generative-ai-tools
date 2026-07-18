@@ -12,6 +12,7 @@ dependencies = [
 members = [
     "langchain-llamaindex",
     "langgraph_mcp",
+    "langsmith-rag",
 ]
 
 [dependency-groups]

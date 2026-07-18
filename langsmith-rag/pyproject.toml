@@ -1,0 +1,10 @@
+[project]
+name = "langsmith-rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-community>=0.4.2",
+    "langchain-google-genai>=4.2.6",
+]
